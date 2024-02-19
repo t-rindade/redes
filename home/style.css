@@ -1,0 +1,69 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+#header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #304c89;
+}
+
+#header a {
+  padding: 15px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#header p {
+  padding: 15px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#classroom {
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+#secaohome {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.turma {
+  background-color: #304c89;
+  padding: 25px;
+  width: 25%;
+  margin: 25px;
+  color: aliceblue;
+  border: solid 1px #7b7b7b;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#subtitleturma {
+  font-size: medium;
+  font-weight: normal;
+}
+
+#unidadeturma {
+  font-size: small;
+  font-weight: normal;
+  margin-bottom: 5%;
+}
+
+.titleentrega {
+  font-size: smaller;
+}
+
+.entrega li {
+  font-size: smaller;
+  margin-left: 10%;
+}

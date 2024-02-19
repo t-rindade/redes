@@ -1,0 +1,94 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #304c89;
+}
+
+#header a {
+  padding: 15px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#header p {
+  padding: 15px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#classroomturma1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: aliceblue; */
+}
+
+#secaoturma1 {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  align-items: center;
+  padding: 25px;
+  flex-direction: column;
+}
+
+#imgturma1 {
+  display: flex;
+  border-radius: 25px;
+  background-image: url(/img/porsche.png);
+  width: 90%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#imgturma1 h1 {
+  color: aliceblue;
+  padding: 25px;
+  align-self: self-end;
+  text-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#atividadesturma1 {
+  display: flex;
+  width: 90%;
+  margin-top: 25px;
+  align-items: end;
+  flex-direction: column;
+}
+
+.atividade {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 100px;
+  background-color: #304c89;
+  color: aliceblue;
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 15px;
+}
