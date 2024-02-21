@@ -48,6 +48,10 @@
   cursor: pointer;
 }
 
+#turma1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/porsche.png);
+}
 #subtitleturma {
   font-size: medium;
   font-weight: normal;
